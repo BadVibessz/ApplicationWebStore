@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="DijkstraAlgorithmOnGraph.exe" version="1.0.0.1" publicKeyToken="28cd07939985a58a" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="DijkstraAlgorithmOnGraph" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="DijkstraAlgorithmOnGraph.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Параметры манифеста UAC
+          Если нужно изменить уровень контроля учетных записей Windows, замените 
+          узел requestedExecutionLevel одним из следующих значений.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+        Если нужно использовать виртуализацию файлов и реестра для обратной
+             совместимости, удалите узел requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DijkstraAlgorithmOnGraph.exe" size="24488">
+      <assemblyIdentity name="DijkstraAlgorithmOnGraph" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>n6dzb7+xjkUuAHNSbNIxB0qEcOvejpyiHLVNd9w3lJ4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="DijkstraAlgorithmOnGraph.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=CARTI\danil" issuerKeyHash="4a84034fe581166a397423eba2b994a4dad946f1" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>lHEasPb8hG3egRdrQMRv0OG4eALuS7w7L+yUKI9zWFk=</DigestValue></Reference></SignedInfo><SignatureValue>Tbp1/lL7ryuQd1D/JGLAa6YdCAUuzUNSpIZ0+HuPqkgQhy41fwrGjZ3N38EhdYowQ/TZ1Iw456df+9V+uOc5qNW7bgxMKF9/RlTExSAcDvNOuC59j6fyNVVooJRpEIUL+9DvTU1x5t0ZkGi1M/opRANivdRzgbT4abzK2Wjk8mw=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>ztiQq3vZxZNHToLO2i1U7Ao1EJZHz/kbegd3eeNCf2kw4jCuWm0VvTCHeq6BRKKqSX+IboFWebF1qAheeaxE73NNQSBGdPz/aFw/b1QMqqZYIo4mIPJZNo64f5lwsSldj4jJDF5icCx3A453u9YJcoQjYLzx1K2r8ISdDb5rosE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="5958738f2894ec2f3bbc4bee0278b8e1d06fc4406b1781de6d84fcf6b01a7194" Description="" Url=""><as:assemblyIdentity name="DijkstraAlgorithmOnGraph.exe" version="1.0.0.1" publicKeyToken="28cd07939985a58a" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=CARTI\danil</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>eqoLHoCl1TjrPRGH1clj1o2/jqFRZjTtjsIkMxgz+z0=</DigestValue></Reference></SignedInfo><SignatureValue>TUBWaFk4UK8vX2gbj+uusCIvAss9LoIeN/ksTR6Vhqujl/NRinQ3dvQjbPsV418CxGiv68QqrNOL67V6pry45cwGtpER/wKlwf/Xeyc67gpXr1YA1rcAneDyCfre+524sN/HydwM0TDJMmfiJHqFZxPi0CMoNL+4IhXOy3GrNDA=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>ztiQq3vZxZNHToLO2i1U7Ao1EJZHz/kbegd3eeNCf2kw4jCuWm0VvTCHeq6BRKKqSX+IboFWebF1qAheeaxE73NNQSBGdPz/aFw/b1QMqqZYIo4mIPJZNo64f5lwsSldj4jJDF5icCx3A453u9YJcoQjYLzx1K2r8ISdDb5rosE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBxTCCAS6gAwIBAgIQTacwcyqo9IhOpUz3Uzp8fjANBgkqhkiG9w0BAQsFADAhMR8wHQYDVQQDHhYAQwBBAFIAVABJAFwAZABhAG4AaQBsMB4XDTIyMDUxNzEyNTI1NVoXDTIzMDUxNzE4NTI1NVowITEfMB0GA1UEAx4WAEMAQQBSAFQASQBcAGQAYQBuAGkAbDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAztiQq3vZxZNHToLO2i1U7Ao1EJZHz/kbegd3eeNCf2kw4jCuWm0VvTCHeq6BRKKqSX+IboFWebF1qAheeaxE73NNQSBGdPz/aFw/b1QMqqZYIo4mIPJZNo64f5lwsSldj4jJDF5icCx3A453u9YJcoQjYLzx1K2r8ISdDb5rosECAwEAATANBgkqhkiG9w0BAQsFAAOBgQA6ZcGN6yHAkT/vN4Qr7EP+TMRBa4x4f7/WGmm+otug7xHRBMbI9KCy/fCE7IfEkPc2nh/AaEKrNuTTq2BcVcrGgIMtF0irzQM2NAGDdxSURbrgcqCaMNTM1Fc+/hL02warVutsxLjjVaauijEl98fOMxKLHaM9++GJJBoINtc+TQ==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

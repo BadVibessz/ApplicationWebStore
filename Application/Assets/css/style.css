@@ -1,0 +1,123 @@
+﻿
+header, .header, #header {
+    font-size: 20px;
+    height: 60px;
+    background: rgb(39, 40, 44);
+}
+
+.text {
+    color: rgb(170, 170, 170);
+    vertical-align: middle;
+}
+
+.text:hover {
+    color: rgb(186, 110, 210);
+}
+
+.profile-icon {
+    border-radius: 20px;
+}
+
+.search {
+    background: #cecece;
+    height: 30px;
+    border-radius: 20px;
+}
+
+.nav-ext {
+    height: 60px;
+}
+
+.height60 {
+    height: 60px;
+}
+
+.custom-height{
+    height: 280px;
+}
+
+.body {
+    margin: 0px;
+    padding: 0px;
+    background: #bbbaba;
+    height: 100%;
+    width: 100%;
+}
+
+.banner {
+    border-radius: 20px;
+    margin-left: 60px;
+    height: 500px;
+    width: 650px;
+    background: rgb(39, 40, 44);
+    /*background: linear-gradient(-45deg, #380354, #364149);*/
+}
+
+.pink-text {
+    color: rgb(186, 110, 210);
+}
+
+.pink-button {
+    background: rgb(186, 110, 210);
+    border-width: 0px;
+    width: 100px;
+}
+
+.pink-button:hover {
+    background: black;
+    color: rgb(186, 110, 210);
+}
+
+.footer {
+    margin-top: 0px;
+    background: rgb(39, 40, 44);
+}
+
+.footer.text {
+
+    color: rgba(186, 110, 210, 0.5);
+}
+
+
+.card {
+    border: none;
+    height: 100%;
+}
+
+.forms-inputs {
+    position: relative;
+}
+
+.forms-inputs span {
+    position: absolute;
+    top: -18px;
+    left: 10px;
+    background-color: #fff;
+    padding: 5px 10px;
+    font-size: 15px
+}
+
+.forms-inputs input {
+    height: 50px;
+    border: 2px solid #eee;
+    width: 540px
+}
+
+.forms-inputs input:focus {
+    box-shadow: none;
+    outline: none;
+    border: 2px solid #000
+}
+
+.btn {
+    height: 50px
+}
+
+.success-data {
+    display: flex;
+    flex-direction: column
+}
+
+.bxs-badge-check {
+    font-size: 90px
+}

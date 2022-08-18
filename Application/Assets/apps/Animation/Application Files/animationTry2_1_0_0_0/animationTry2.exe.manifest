@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="animationTry2.exe" version="1.0.0.0" publicKeyToken="62b77ab2af398abb" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="animationTry2" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="animationTry2.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Параметры манифеста UAC
+          Если нужно изменить уровень контроля учетных записей Windows, замените 
+          узел requestedExecutionLevel одним из следующих значений.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+        Если нужно использовать виртуализацию файлов и реестра для обратной
+             совместимости, удалите узел requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="animationTry2.exe" size="56232">
+      <assemblyIdentity name="animationTry2" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>JBUWJQBpz5pLy4Gc6FOGJcdCOkFYOuv6irJ26QTJPng=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SharpAvi.dll" size="77824">
+      <assemblyIdentity name="SharpAvi" version="3.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>f+Az6nUQOI4T/T38Iqop/oVORVOC3nFnpe3bkALVAPY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="System.Numerics.Vectors.dll" size="115856">
+      <assemblyIdentity name="System.Numerics.Vectors" version="4.1.4.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>HT74aYKB589zcdFVSv71hys5+Wwm2nciEKM9oEG6EYM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="animationTry2.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=CARTI\danil" issuerKeyHash="e1f4bc36188a719e0d1a8ebc8146fb07f0b9ee89" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Vft15bkFq5Rl67Ye6q6EpFxGPqcYM+9IRUF2SB+tdHc=</DigestValue></Reference></SignedInfo><SignatureValue>qxnB76JY7t2nMX3ZE8ZE9jVNnvxwdqie/A6AuJVgKMPlp/lVxdFZvIhkP5YyU6GLi1qcjtS5S/YlGpoogHu9HlP6WTxOOPmUiXEJBkLTzPZdnNd3V33EDu7A6OTE28hsPUu2JHsklWQneIwWgUBE15F7h2YMbdsRyzir5OK7Tu8=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>rChgKZqsDhZrmSUonpG/IFlMuSD2pAJTzmxqDfTxphJIFce63K0lDFIv9kWi6wt+x0tmyl9XxrtDiIQuju5DOoU6Lxb7OTVZeYaImNpSM/qiq5Wu2K+ddAFOBRy/K6m2DBZlyb2v2+YauuvEuVERR2ongE+Dxv9CV+dzeldFE/U=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="7774ad1f4876414548ef3318a73e465ca484aeea1eb6eb6594ab05b9e575fb55" Description="" Url=""><as:assemblyIdentity name="animationTry2.exe" version="1.0.0.0" publicKeyToken="62b77ab2af398abb" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=CARTI\danil</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>AWpzTNuoK+iLzTXwUF0gkIXYCML6i9e3gE8Ux7EP7BE=</DigestValue></Reference></SignedInfo><SignatureValue>hhvwDcULSR5wt9f0DkHywtBLt0DpWsGUFtA38RJ/OIpLNjGLB7XtPaVLkJ7iPNK2h64CDFOgbHPB8XRSBYFOxBHwWfc0OZwxE4/uww1+Xj3f7HHuAkf3YW9+/ghhTrGidv/gDTUP50vnUi0/jxbYv14IJC8OsrmjHvuKUuBAN3I=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>rChgKZqsDhZrmSUonpG/IFlMuSD2pAJTzmxqDfTxphJIFce63K0lDFIv9kWi6wt+x0tmyl9XxrtDiIQuju5DOoU6Lxb7OTVZeYaImNpSM/qiq5Wu2K+ddAFOBRy/K6m2DBZlyb2v2+YauuvEuVERR2ongE+Dxv9CV+dzeldFE/U=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBxTCCAS6gAwIBAgIQNGNC0iyhX4pAodv2TaqFnjANBgkqhkiG9w0BAQsFADAhMR8wHQYDVQQDHhYAQwBBAFIAVABJAFwAZABhAG4AaQBsMB4XDTIyMDUxNzEyNTExN1oXDTIzMDUxNzE4NTExN1owITEfMB0GA1UEAx4WAEMAQQBSAFQASQBcAGQAYQBuAGkAbDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEArChgKZqsDhZrmSUonpG/IFlMuSD2pAJTzmxqDfTxphJIFce63K0lDFIv9kWi6wt+x0tmyl9XxrtDiIQuju5DOoU6Lxb7OTVZeYaImNpSM/qiq5Wu2K+ddAFOBRy/K6m2DBZlyb2v2+YauuvEuVERR2ongE+Dxv9CV+dzeldFE/UCAwEAATANBgkqhkiG9w0BAQsFAAOBgQCnLcV3PkpxKCSxaNPFHKx7ZEHMZwESA2hMAfNWKg4qoQxhYbAKgaleqAa8dytUxFZ8/7K89yF4CS04fKcspLxLkBVn1nu7YlusQXLflLhe4z5CNuYLDRWvw43i5yY1gsVT6ogVIE+0aCKLQ+kGKM+AtSgwYyO/X7FwJLSFBCcnmA==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

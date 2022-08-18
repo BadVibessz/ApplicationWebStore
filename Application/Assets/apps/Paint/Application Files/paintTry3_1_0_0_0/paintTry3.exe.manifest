@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="paintTry3.exe" version="1.0.0.0" publicKeyToken="d5b916dc6185b04a" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="paintTry3" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="paintTry3.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Параметры манифеста UAC
+          Если нужно изменить уровень контроля учетных записей Windows, замените 
+          узел requestedExecutionLevel одним из следующих значений.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+        Если нужно использовать виртуализацию файлов и реестра для обратной
+             совместимости, удалите узел requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="paintTry3.exe" size="361384">
+      <assemblyIdentity name="paintTry3" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>PieD4m95WC9r8B/h4R9WECCE1PoFVbtqcKJXJuzkLqE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="paintTry3.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=CARTI\danil" issuerKeyHash="654119d5222c2eec0eee698483fd0de1be3add11" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>GcAujpdtVoBCCXDCmFX9l4iGiLu0xoOUh0RDg+Sz/cY=</DigestValue></Reference></SignedInfo><SignatureValue>ZRv8f7trBkfVsLwH4q5BNZ2mwvCsbV/fyd4Ej/dkt5dG+IoODD7raUrap85WVyCbyN6sA4RkQaXZtmLaxyUHj3ce7x2lhpW3jdkwcK0Ifhi4PE0TCkwPr6a5K+MDnQ39XAk1PzNYxaZ+QhYK3Ng90tOlcw6b/ENnv48hL6YNy28=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>4oMxOI1Q8pzGiQSnc1N0KRh+t1bVmpwbALIHZgJkBH7KzeJ4zYqxCgziJbke+ibP3ugHDE433oGV4yKe+5b/WoGQ7hfi3ZpZopsVG/uYR0bDSYEoIaYM6pV6qKkhBR5IIKOOOcpiP81wyFaufrQZZy6qyFfqpCSnrVm7CF0etak=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="c6fdb3e4834344879483c6b4bb88868897fd5598c270094280566d978e2ec019" Description="" Url=""><as:assemblyIdentity name="paintTry3.exe" version="1.0.0.0" publicKeyToken="d5b916dc6185b04a" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=CARTI\danil</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>4arDCvblYY+lobuBNt3M/SUn1jUho9sZJ2l7tgvihf0=</DigestValue></Reference></SignedInfo><SignatureValue>wDTo2fut/G0mW/rHfoucH1p9Rcom87N55bEIXslk5AHy0WYOCuaisaq8V/JBmxIOYbUGkmCPVzboQjkCmWCYpKevZHFJ+WxhHGom/ukXMLcUP+NL7iJXHwNMUSPjzk/11Af/SivghsQl6brRjsH+JsSyRTRjyPttMLM+R8s8sq8=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>4oMxOI1Q8pzGiQSnc1N0KRh+t1bVmpwbALIHZgJkBH7KzeJ4zYqxCgziJbke+ibP3ugHDE433oGV4yKe+5b/WoGQ7hfi3ZpZopsVG/uYR0bDSYEoIaYM6pV6qKkhBR5IIKOOOcpiP81wyFaufrQZZy6qyFfqpCSnrVm7CF0etak=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBxTCCAS6gAwIBAgIQTVw4WFrZlKNMA/L7C7mLtDANBgkqhkiG9w0BAQsFADAhMR8wHQYDVQQDHhYAQwBBAFIAVABJAFwAZABhAG4AaQBsMB4XDTIyMDUxNzEyNDUwMloXDTIzMDUxNzE4NDUwMlowITEfMB0GA1UEAx4WAEMAQQBSAFQASQBcAGQAYQBuAGkAbDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA4oMxOI1Q8pzGiQSnc1N0KRh+t1bVmpwbALIHZgJkBH7KzeJ4zYqxCgziJbke+ibP3ugHDE433oGV4yKe+5b/WoGQ7hfi3ZpZopsVG/uYR0bDSYEoIaYM6pV6qKkhBR5IIKOOOcpiP81wyFaufrQZZy6qyFfqpCSnrVm7CF0etakCAwEAATANBgkqhkiG9w0BAQsFAAOBgQC2/trbI44aICN/02xsxiEVClwScivBodFr9/zQ1oQzPhk3Fy9SFFXoKN1yybVpA9+vZDiWDg0GuLp6S5AvgmlJie5+w/lA8CtoVpc4keUZgEw9jCmJpgmlV3yyN6DXaPzJLyXgsKJkdtl3M6WuwarfV5RqBGV9n/a3M9z1ECmD/Q==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
